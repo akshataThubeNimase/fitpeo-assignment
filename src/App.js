@@ -14,7 +14,7 @@ function App() {
     <BrowserRouter>
     <Sidebar></Sidebar>
        <Routes>
-       <Route path="/" element={<Dashboard/>}></Route>
+       <Route path="/fitpeo-assignment" element={<Dashboard/>}></Route>
          <Route path="/Sidebar" element={<Sidebar/>}></Route>
          <Route path="/Product" element={<Product/>}></Route>
          <Route path="/Customer" element={<Customer/>}></Route>

@@ -14,7 +14,7 @@ const Sidebar = () => {
     return <>
         <div className="sidebar">
             <a className="active" href="#dashboard"><FiBox size={26} />Dashboard</a>
-            <a href="/"><FiCodesandbox size={22} /> Dashboard</a>
+            <a href="/fitpeo-assignment"><FiCodesandbox size={22} /> Dashboard</a>
             <a href="/Product"><PiMicrosoftPowerpointLogoBold size={22} /> Product</a>
             <a href="/Customer"><PiAddressBookBold size={22} /> Customer</a>
             <a href="/Income"><MdWorkOutline size={22} /> Income</a>
