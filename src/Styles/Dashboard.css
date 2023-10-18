@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Nanum+Gothic&family=Teko:wght@300&display=swap');
+div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+    width: 1200px;
+    background-color: rgba(145, 141, 141, 0.103);
+    overflow: scroll;
+
+}
+.category-container {
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    border-radius: 7px;
+    /* box-shadow: 2px 2px 5px black; */
+    cursor: pointer;
+    height: 100px;
+    text-align: center;
+}
+.icon{
+    margin-top:15px;
+}
+.graph-content {
+    background-color: white;
+    border-radius: 7px;
+    /* box-shadow: 2px 2px 5px black; */
+    cursor: pointer;
+    height: 300px;
+    margin: 20px;
+}
+
+.table-content {
+    background-color: white;
+    border-radius: 7px;
+    /* box-shadow: 1px 1px 5px black; */
+    cursor: pointer;
+    margin: 20px;
+}
+
+img {
+    width: 100px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.chart-container {
+    background-color: white;
+    border-radius: 7px;
+    /* box-shadow: 2px 2px 5px black; */
+    cursor: pointer;
+    height: 300px;
+    margin: 20px;
+}
+
+.card-body {
+    text-align: center;
+}
+.searchbar{
+  float: right;
+
+}
+.dropdown{
+    float: right; 
+}
