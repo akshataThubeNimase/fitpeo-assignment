@@ -15,7 +15,7 @@ body {
     overflow: auto;
 }
 
-.sidebar a {
+.sidebar p {
     margin-top: 2px;
     display: block;
     color: white;
@@ -23,12 +23,12 @@ body {
     text-decoration: none;
 }
 
-.sidebar a.active {
+.sidebar p.active {
     background-color: rgb(71, 3, 71);
     color: white;
 }
 
-.sidebar a:hover:not(.active) {
+.sidebar p:hover:not(.active) {
     background-color: purple;
     color: white;
 }
@@ -40,7 +40,7 @@ body {
         position: relative;
     }
 
-    .sidebar a {
+    .sidebar p {
         float: left;
     }
 
@@ -50,7 +50,7 @@ body {
 }
 
 @media screen and (max-width: 400px) {
-    .sidebar a {
+    .sidebar p {
         text-align: center;
         float: none;
     }

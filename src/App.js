@@ -15,12 +15,12 @@ function App() {
     <Sidebar></Sidebar>
        <Routes>
        <Route path="/fitpeo-assignment" element={<Dashboard/>}></Route>
-         <Route path="/Sidebar" element={<Sidebar/>}></Route>
-         <Route path="/Product" element={<Product/>}></Route>
-         <Route path="/Customer" element={<Customer/>}></Route>
-         <Route path="/Income" element={<Income/>}></Route>
-         <Route path="/Promote" element={<Promote/>}></Route>
-         <Route path="/Help" element={<Help/>}></Route>
+         <Route path="/sidebar" element={<Sidebar/>}></Route>
+         <Route path="/product" element={<Product/>}></Route>
+         <Route path="/customer" element={<Customer/>}></Route>
+         <Route path="/income" element={<Income/>}></Route>
+         <Route path="/promote" element={<Promote/>}></Route>
+         <Route path="/help" element={<Help/>}></Route>
        </Routes>
     </BrowserRouter>
   )

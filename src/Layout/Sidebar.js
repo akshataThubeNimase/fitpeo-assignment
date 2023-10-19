@@ -8,18 +8,24 @@ import { MdLiveHelp } from 'react-icons/md';
 import { FiCodesandbox } from 'react-icons/fi';
 import { FiBox } from 'react-icons/fi';
 import '../Styles/Sidebar.css';
-
+import { useNavigate } from "react-router-dom";
 
 const Sidebar = () => {
+    const navigate = useNavigate();
+    
+    const navigateToPage=(path)=>{
+        navigate(path);
+    }
+
     return <>
         <div className="sidebar">
-            <a className="active" href="#dashboard"><FiBox size={26} />Dashboard</a>
-            <a href="/fitpeo-assignment"><FiCodesandbox size={22} /> Dashboard</a>
-            <a href="/Product"><PiMicrosoftPowerpointLogoBold size={22} /> Product</a>
-            <a href="/Customer"><PiAddressBookBold size={22} /> Customer</a>
-            <a href="/Income"><MdWorkOutline size={22} /> Income</a>
-            <a href="/Promote"><GiAbstract016 size={22} /> Promote</a>
-            <a href="/Help"><MdLiveHelp size={22} /> Help</a>
+            <p className="active" href="#dashboard"><FiBox size={26} />Dashboard</p>
+            <p onClick={()=>navigateToPage("/fitpeo-assignment")}><FiCodesandbox size={22} /> Dashboard</p>
+            <p onClick={()=>navigateToPage("/product")}><PiMicrosoftPowerpointLogoBold size={22} /> Product</p>
+            <p onClick={()=>navigateToPage("/customer")}><PiAddressBookBold size={22} /> Customer</p>
+            <p onClick={()=>navigateToPage("/income")}><MdWorkOutline size={22} /> Income</p>
+            <p onClick={()=>navigateToPage("/promote")}><GiAbstract016 size={22} /> Promote</p>
+            <p onClick={()=>navigateToPage("/help")}><MdLiveHelp size={22} /> Help</p>
         </div>
    
     </>

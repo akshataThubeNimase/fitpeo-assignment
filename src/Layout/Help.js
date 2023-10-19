@@ -1,5 +1,5 @@
 import React from "react";
 const Help=()=>{
-    return<>this is help page</>
+    return<><div style={{marginLeft:400}}>"Help Page"</div></>
 }
 export default Help;

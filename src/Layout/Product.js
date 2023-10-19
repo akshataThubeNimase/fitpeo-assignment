@@ -1,7 +1,7 @@
 import React from "react";
 const Product=()=>{
     return<>
-    this is product page
+    <div style={{marginLeft:400}}>"Product Page"</div>
     </>
 }
 export default Product;
